@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">D2Lapp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Courses</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_Calender">Calender</string>
+    <string name="title_Email">Email</string>
+    <string name = "arrow"> -> </string>
+    <string name="sunday"> Sun </string>
+    <string name="monday"> Mon </string>
+    <string name="tuesday"> Tue </string>
+    <string name="wednesday"> Wed </string>
+    <string name="thursday"> Thu </string>
+    <string name="friday"> Fri </string>
+    <string name="saturday"> Sat </string>
+    <string name= "no_event"> No events for selected date. </string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login">"Login"</string>
+</resources>

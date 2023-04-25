@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#c0ccda"
+        app:title="Mobile Software Development"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/welcome_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to CS 4322 Mobile application development! This is Mrs. Wang and I am looking forward to meeting you all! During this course, you will learn mobile application development, environments, platforms, architecture, design, and security.\n\nPlease review the syllabus before you start the first module.\n\nCourse schedule can be found in the syllabus the detailed content for each learning module can also be found at Learning Modules under Contents tab."
+            android:textSize="16sp"
+            android:padding="16dp" />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

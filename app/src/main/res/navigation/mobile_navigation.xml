@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_login">
+
+    <fragment
+        android:id="@+id/navigation_login"
+        android:name="com.example.d2lapp.ui.login.LoginFragment"
+        android:label="@string/login"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.d2lapp.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.d2lapp.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.d2lapp.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_Calender"
+        android:name="com.example.d2lapp.ui.Calender.CalenderFragment"
+        android:label="@string/title_Calender"
+        tools:layout="@layout/fragment_calender" />
+    <fragment
+        android:id="@+id/navigation_Email"
+        android:name="com.example.d2lapp.ui.email.EmailFragment"
+        android:label="@string/title_Email"
+        tools:layout="@layout/fragment_email">
+        <action
+            android:id="@+id/action_navigation_Email_to_emailFullScreenFragment"
+            app:destination="@id/emailFullScreenFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/emailFullScreenFragment"
+        android:name="com.example.d2lapp.ui.email.EmailFullScreenFragment"
+        android:label="EmailFullScreenFragment"
+        />
+
+
+</navigation>
